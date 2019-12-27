@@ -1,0 +1,29 @@
+//////////////////
+.stack
+size = 12
+//////////////////////////////////
+.code    
+sta 4
+ldi 0
+
+lda 4
+
+sum 4
+
+sti 4
+
+
+jgz 3 
+
+prt
+
+avg
+
+sum 4
+
+sti 4
+jgz 8
+
+prt
+
+halt
